@@ -1,0 +1,63 @@
+<!DOCTYPE html>     <!--cabecera del documento-->
+<html lang="es">    <!--añadimos el idioma español para los acentos-->
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario 2</title>
+    </head>
+    <body>
+        
+        <form action="destino.html" method="post">
+            <fieldset>
+                <legend>Por favor, complete estas opciones</legend>
+                <div>
+                    <label for="fecha">Elija una fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+                <div>
+                    <label for="fichero">Elija un fichero:</label>
+                    <input type="file" id="fichero" name="fichero" required>
+                </div>
+                <div>
+                    <input type="checkbox" id="jpg"
+                    value="JPG">JPG
+                    <input type="checkbox" id="png"
+                    value="PNG">PNG
+                </div>
+                <div>
+                    <label for="correo" title="introduce tu correo electrónico">Correo:</label>
+                    <input type="email" id="correo" name="correo" maxlength="40" size="26" required>
+                </div>
+                <div>
+                    <label for="poblacion" title="elije tu población de la lista">Población:</label>
+                    <select id="poblacion" name="poblacion">
+                        <option value="alicante">Alicante</option>
+                        <option value="castellon">Castellón</option>
+                        <option value="valencia">Valencia</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="descripcion" title="escribe lo que consideres necesário">Descripción:</label>
+                </div>
+                <div>
+                    <textarea id="descripcion" name="descripcion" maxlength="199" size="55"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="lista_correo" name="lista_correo">
+                    Deseo recibir información sobre novedades y ofertas.
+                </div>
+                <div>
+                    <input type="checkbox" id="aceptacion" name="aceptacion">Declaro haber leido y aceptar 
+                    las condiciones generales del programa y la normativa sobre preotección de datos.
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+    
+            </fieldset>
+            
+
+
+        </form>
+    </body>
+</html>
