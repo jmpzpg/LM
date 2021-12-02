@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la página</title>
+    <style>
+        p.peque {color:blue;}   /* aplica estilo en todas las etiquetas p con esa clase */ 
+        p span.peque {color:red;}   /* solo aplica la clase a los span dentro de un p */
+    </style>
+</head>
+<body>
+    HOLA (yo debería de ser normal)
+    <p class="peque">
+        Hola. Yo debería de ser de color azul. Porque me afecta la .peque
+        para los P. Es decir, p.peque 
+    </p>
+    
+    <p>
+        Hola (yo debería de ser normal) 
+        <span class="peque">
+            soy rojo (porque estoy en un span que tira de la .peque y estoy en un P)
+        </span>
+    </p>
+
+    <p>
+        Hola (yo debería de ser normal)
+        <code class="peque">
+            no soy rojo (aunque tiro de .peque soy un CODE y no esta en el estilo)
+        </code>
+    </p>
+
+</body>
+</html>
