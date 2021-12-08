@@ -1,0 +1,70 @@
+
+div {
+  border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0 1em 4em;
+  width: 400px;
+  height: 100px;
+  text-align:center;
+ }
+
+#fotorelativa {
+  position: relative;
+  left: 200px;
+  bottom: 20px;
+}
+ 
+
+#fotoabsoluta {
+  position: absolute;
+  top:  450px; 
+  left: 50px;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+div img:nth-of-type(2) {  /*el segundo "lo que sea", en el DIV*/
+  width: 100px;
+  height: 100px;
+} 
+div img:nth-of-type(3) {  /*el tercer "lo que sea", en el DIV*/
+  width: 100px;
+  height: 96px;
+} 
+
+.fotofija {
+  position:fixed;
+  bottom:50%;
+  left:40%;
+  border:orange 5px dotted;
+  opacity:0.4;
+} 
+
+div img {
+  border: blue 2px solid;
+}
+
+div p:nth-of-type(odd) {
+  background-color:darkblue;
+  color: antiquewhite;
+  padding: 0.2em;
+}
+p:nth-of-type(3n+1) {
+  background-color: rgb(235, 217, 195);
+}
+/* p:nth-of-type(even) {
+  background-color: rgb(191, 215, 216);
+} */
+
+
+
+/* 
+#fotorelativa {
+    /* position:relative; */
+    left: 200px;
+    bottom: 20px;
+
+    /* left:400px;           
+    bottom:10px;     
+     
+*/
