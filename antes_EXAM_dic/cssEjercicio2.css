@@ -1,0 +1,50 @@
+div {
+    border: green 2px solid;
+    width: 350px;
+    margin: 0 auto;
+    
+}
+h1 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+    border:tomato 2px solid
+}
+
+#menu{
+	/*estilo de nuestra lista*/
+	list-style:none;
+	/* width: 250px; */
+	/* position:relative; */
+	/* display:block; */
+	height: 40px; 
+    color: red;
+    /* text-align: center; */
+    border: royalblue 2px solid;
+    margin: 2% auto;
+}
+
+#menu li{
+
+	/*estilo a cada uno de los elementos(li) de nuestro menu*/
+	float:left;/* propiedad importante para que nuestro menu 
+	tome la forma horizontal*/
+	/* margin: 2% auto; */
+    border: thistle 3px solid;
+	/* display:block; */
+	/* position:relative; */
+	}
+	#menu li a{
+
+		/*estilo de los enlaces */
+		color:red; /*prueba un momento con red*/
+		text-decoration:none;
+		font-family:Helvetica, Arial, sans-serif;
+		font-size:16px;
+		/* line-height:1.3em; */
+		/* padding:10px 14px 8px 16px; */
+        padding: 10px;
+        /* margin: 0 auto; */
+		/* display:block; */
+		}

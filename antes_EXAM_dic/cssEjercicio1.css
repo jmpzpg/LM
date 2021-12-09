@@ -1,0 +1,38 @@
+
+strong {        /*el selector strong lo coloreamos en naranja*/
+    color: orange;
+}
+
+p {             /* Indentamos la primera linea del parrafo*/
+    text-indent: 15px;             
+}
+
+
+p::first-letter {   /* La primeera letra del parrafo la hacemos grande*/
+    font-size: 2em;
+}
+
+p a {               /* Aplicamos negrita al link dentro del párrafo*/
+    font-weight: bold;
+}
+
+.claves {           /* Formateo en mayusculas con espaciado de letras y palabras para la clase claves*/
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 1.5px;
+}
+
+#formato1 {         /* Formateo para el selector #formato1*/
+    font-size: 2.3em;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    font-weight: bold;
+}
+
+strong span {       /* decoracion para los span hijos de strong*/
+    text-decoration-line: underline overline;
+}
+
+main {              /* degradado para el contenido del MAIN*/
+    background: linear-gradient(gray,white);
+}
