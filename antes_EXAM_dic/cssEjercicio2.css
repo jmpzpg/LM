@@ -1,28 +1,52 @@
+html {
+    /* color de fondo de la página */
+    background-color: dimgray;
+}
+body {
+    /* Para el body, lo reducimos respecto a la página, centramos y le damos color */
+    width: 80%;
+    padding: 0 1% 1% 1%;
+    margin: -20px auto 10% auto;
+    background-color:whitesmoke;
+}
+
 div {
-    border: green 2px solid;
+    /* Contiene nuestro menú */
     width: 350px;
     margin: 0 auto;
     
 }
 h1 {
+    /* Centramos el título */
     text-align: center;
 }
 nav {
-    text-align: center;
-    border:tomato 2px solid
+    /* Acercamos la caja del NAV al título */
+    position: relative;
+    top: -20px;
 }
-
+#Strong, #Mark, #Span {
+    /* Resaltamos los títulos de los apartados */
+    font-size: large;
+}
+p {
+    /* Separamos los párrafos de los títulos de los apartados */
+    margin: 3px 0 15px 0;
+}
+section strong:target {
+    /* Modificamos el aspecto de los títulos de párrafo cuando son enlazados en el menú */
+    color:tomato;
+    font-variant: small-caps;
+    font-size:x-large;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
 #menu{
 	/*estilo de nuestra lista*/
 	list-style:none;
-	/* width: 250px; */
-	/* position:relative; */
-	/* display:block; */
 	height: 40px; 
     color: red;
-    /* text-align: center; */
-    border: royalblue 2px solid;
-    margin: 2% auto;
+    margin: 0 auto;
 }
 
 #menu li{
@@ -30,21 +54,34 @@ nav {
 	/*estilo a cada uno de los elementos(li) de nuestro menu*/
 	float:left;/* propiedad importante para que nuestro menu 
 	tome la forma horizontal*/
-	/* margin: 2% auto; */
-    border: thistle 3px solid;
-	/* display:block; */
-	/* position:relative; */
+    border-radius: 20px;
+    margin: 0 14px;
+    padding: 5px 0;
 	}
 	#menu li a{
 
 		/*estilo de los enlaces */
-		color:red; /*prueba un momento con red*/
+		color:dimgray; /*prueba un momento con red*/
 		text-decoration:none;
 		font-family:Helvetica, Arial, sans-serif;
 		font-size:16px;
-		/* line-height:1.3em; */
-		/* padding:10px 14px 8px 16px; */
         padding: 10px;
-        /* margin: 0 auto; */
-		/* display:block; */
 		}
+
+#menu li:hover {
+    /* Decoramos los items del menú al pasar por encima con el ratón */
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: dimgray;
+    
+}
+#menu li a:hover {
+    /* Cambiamos el color de la fuente de los items del menú al pasar por encima */
+    color:whitesmoke;
+}
+/* [data-title]::after {
+    content: attr(data-title);
+    background-color: whitesmoke;
+    color: black;
+} */
