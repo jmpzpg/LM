@@ -1,0 +1,14 @@
+div {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: blue 2px solid;
+    background-image: url("imagenes/foto2.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+div:hover {
+    background-image: url("imagenes/foto3.jpg");
+    cursor: pointer;
+}
