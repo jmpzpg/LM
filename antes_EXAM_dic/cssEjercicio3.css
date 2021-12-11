@@ -1,0 +1,155 @@
+section {
+    /* Centramos las secciones de la página */
+    width: 90%;
+    margin: 0 auto;
+}
+li span {
+    /* Para resaltar las frases añadidas al html, para pasar por los elementos con el ratón */
+    color: brown;
+    font-weight: bold;
+}
+/* ----------------------------------------------------------------- */
+/* INICIO - css para cambiar la presentación de la tabla */ 
+table {
+    /* Centramos la tabla en la página */
+    margin: 0 auto;
+}
+table, th, td {
+    /* Borde para todas las lineas de la tabla */
+    border: chocolate 2px solid;
+    border-collapse: collapse;
+}
+th {
+    /* color de fondo y de letra para los encabezados */
+    background-color: #597272;
+    color: whitesmoke;
+}
+td {
+    /* relleno y centrado del contenido de las casillas da datos */
+    padding: 2px 6px;
+    vertical-align: center;
+    text-align: center;
+}
+tr:nth-child(2n+1) {
+    /* color de fondo para las filas de datos pares */
+    background-color: #eaeded;
+}
+tr:hover {
+    /* color de fondo y de letra al pasar el ratón por encima */
+    /* background-color: rgb(185, 247, 63); */
+    background-color: #2f4f4f;
+    color: whitesmoke;
+}
+caption {
+    /* borde superior y a ambos lados, con color de fondo para el nombre de la tabla */
+    border-top: chocolate 2px solid;
+    border-left: chocolate 2px solid;
+    border-right: chocolate 2px solid;
+    background-color: #d5dcdc;
+}
+/* FIN - css para cambiar la presentación de la tabla */
+/* ----------------------------------------------------------------- */
+/* INICIO - css para presentar el texto en columnas */
+div.columnas {
+    text-align: justify;
+    padding: 0 8%;
+    column-count: 2;
+    column-gap: 4%;
+}
+/* FIN - css para presentar el texto en columnas */
+/* ----------------------------------------------------------------- */
+/* INICIO - css para el apartado de imágenes */
+#galeria {
+    /* usamos este contenedor para afinar el centrado de las tres imagenes */
+    padding: 1% 2% 1% 7%;  
+}
+div img {
+    /* Espaciado y borde para las 3 imágenes */
+    margin: 3% 7%;
+    border: chocolate 2px solid;
+}
+#img_grande {
+    /* Parámetros para el contenedor de la imagen grande */
+    border-radius: 150px;
+    width: 203px;
+    height: 164px;
+}
+#img_mediano {
+    /* Parámetros para el contenedor de la imagen mediana */
+    background-color: gray;
+    padding: 15px;
+    width: 150px;
+    height: 121px;
+}
+#img_peque {
+    /* Parámetros para el contenedor de la imagen pequeña */
+    margin-bottom: 6%;
+    width: 100px;
+    height: 81px;
+    border: chocolate 5px double;
+    box-shadow: 0px 0px 8px 8px #ec731e;
+} 	
+#img_peque:hover {
+    /* Efecto para la imágen pequeña. Zoom/acercameinto de la imágen */
+    transition:all .5s ease-in-out;
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+#img_mediano:hover {
+    /* Efecto para la imágen mediana. Rotación vertical */
+    transition:all .4s ease-in-out;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+#img_grande:hover {
+    /* Efecto para la imágen grande. Anillo de sombras */
+    transition:all .3s ease-in-out;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+}
+/* FIN - css para el apartado de imágenes */
+/* ----------------------------------------------------------------- */
+/* INICIO - css para el apartado de los 2 rectángulos */
+div.cont_imagen {
+    /* Formato para los dos rectángulos. Y que se muestren en línea */
+    margin: 2% 8%;
+    width: 300px;
+    height: 242px;
+    border: chocolate 2px solid;
+    display: inline-block;
+}
+
+#izq {
+    /* caja de la izquierda con las dos imágenes centradas. El muro rellena la caja y la otra a lo que da */
+    background: url("imagenes/ojitos.png"), url("imagenes/manzana-habitacion-sucia-pintura-patron_626x417.png");
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+#dch {
+    /* caja de la derecha con 2 imágenes de fondo. Una rellena la caja y otra reducida como si fuera un logo */
+    background: url("imagenes/ojitos.png"), url("imagenes/marco-dorado-sobre-mantel-encaje-arana-velas-encendidas-negras_626x417.png");
+    background-position-x: 33px, 0;
+    background-position-y: 33px, 0;
+    background-repeat: no-repeat;
+    background-size: 25%, cover; 
+}
+#dch:hover {
+    /* Al pasar con el ratón aparece la playa dentro del marco */
+    background: url("imagenes/ojitos.png"), url("imagenes/hermosa-playa-tropical_214x320.png"), url("imagenes/marco-dorado-sobre-mantel-encaje-arana-velas-encendidas-negras_626x417.png");
+    background-position-x: 33px, 210px, 0;
+    background-position-y: 33px, 95px, 0;
+    background-repeat: no-repeat;
+    background-size: 25%, 15%, cover; 
+}
+/* FIN - css para el apartado de rectángulos */
+/* ----------------------------------------------------------------- */
+/* INICIO - css para el último apartado */
+.caja_abs {
+    /* Posicionamos la caja de forma absoluta al pie de la página */
+    padding: 1%;
+    margin: 2% 6% 2% 0;
+    position: absolute;
+    border: chocolate 2px solid;
+}
+/* FIN - css para el último apartado */
+/* ----------------------------------------------------------------- */

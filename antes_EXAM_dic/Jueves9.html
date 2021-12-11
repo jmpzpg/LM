@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<HTML lang=“es”>
+<HEAD>
+    <META charset="utf-8">
+    <META name="title" content="Mi primer HTML5">
+    <META name="description" content="Ejemplo de HTML5">
+    <LINK rel="stylesheet" type="text/css" href="jueves9.css">
+    <TITLE>Jueves9</TITLE>
+</HEAD> 
+<BODY>
+	<MAIN>
+        <section id="tabla">
+            <TABLE>
+                <caption>Tabla de asignaciones</caption>
+                <TR>
+                  <TH>Origen</TH>
+                  <TH>Destino</TH>
+                  <TH>Compañía</TH>
+                </TR>
+                <TR>
+                  <TD>Málaga</TD>
+                  <TD>Madrid</TD>
+                  <TD>ALSA</TD>
+                </TR> 
+                <TR>
+                  <TD>Cádiz</TD>
+                  <TD>Almería</TD>
+                  <TD>GadirBUS</TD>
+                </TR> 
+                <TR>
+                    <TD rowspan="2">Sevilla</TD>
+                    <TD>Málaga</TD>
+                    <TD>ALSA</TD>
+                </TR>
+                <TR>
+                    <TD>Málaga</TD>
+                    <TD>ALSA</TD>
+                </TR>
+            </TABLE>
+        </section>
+        <section id="texto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis est eveniet, consectetur a dolor sapiente quisquam earum nostrum? Quas asperiores minus ea perspiciatis fugiat fugit nulla ipsam debitis qui.</p>
+            <img src="imagenes/fotoplaya.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis est eveniet, consectetur a dolor sapiente quisquam earum nostrum? Quas asperiores minus ea perspiciatis fugiat fugit nulla ipsam debitis qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis est eveniet, consectetur a dolor sapiente quisquam earum nostrum? Quas asperiores minus ea perspiciatis fugiat fugit nulla ipsam debitis qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis est eveniet, consectetur a dolor sapiente quisquam earum nostrum? Quas asperiores minus ea perspiciatis fugiat fugit nulla ipsam debitis qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis est eveniet, consectetur a dolor sapiente quisquam earum nostrum? Quas asperiores minus ea perspiciatis fugiat fugit nulla ipsam debitis qui.</p>
+        </section>
+        <section id="formulario">
+            <form method="post" action="tratamiento.php">
+                <fieldset>
+                    <legend>Datos personales</legend> 
+                    <label for="nombre">¿Cuál es su nombre?</LABEL>
+                    <input type="text" name="nombre" id="nombre">
+                    <label for="apellido">¿Cuál es su apellido?</LABEL>
+                    <input type="text" name="apellido" id="apellido">
+                    <label for="correo">¿Cuál es su correo electrónico?</LABEL>
+                    <input type="email" name="correo" id="email">
+                </fieldset>
+                <DIV>	
+                <input type="submit">
+                <input type="reset">
+                </DIV>
+            </form>
+        </section>
+    </MAIN>
+
+</BODY>
+</HTML>

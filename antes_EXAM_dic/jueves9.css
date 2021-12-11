@@ -1,0 +1,46 @@
+main section {
+    height: 600px;
+    float:left; 
+    border:2px red solid;
+}
+
+
+/* TABLA */
+#tabla{
+    width: 26%;
+}
+ #tabla table {
+    margin:0 auto;
+}
+table, th, td {
+    border:2px red solid;
+    border-collapse: collapse; 
+} 
+
+/* TEXTO */
+#texto {
+    width: 50%;
+    padding-right:1%;
+    padding-left:1%;
+ }
+#texto img {
+    width: 200px;
+    height: 200px;
+    margin-left:1%;
+    float:right;
+}
+#texto p {
+  
+    text-align: justify;
+} 
+/* FORMULARIO */
+#formulario{
+    width: 20%;
+}
+
+fieldset { 
+	width:20%;
+} 
+label {
+	display: block;
+} 
