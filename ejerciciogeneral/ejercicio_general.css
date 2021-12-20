@@ -1,0 +1,68 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(47, 218, 212);
+    position: relative;
+}
+main {
+    padding-left: 1.5%;
+}
+header h1 {
+    border: 2px black solid;
+    font-size: 6em;
+    padding: 2% 0 0 2%;
+    margin-top: 0;          /* sin separación superior con el ppio de la página */
+    margin-bottom: 0;        /* sin separación inferior con H2 */
+}
+header h2 {
+    border: red 2px solid;
+    font-size: 2em;
+    padding: 0 0 2% 2%;
+    margin-top: 0;          /* sin separación superior con H1 */
+    margin-bottom: 0;
+}
+nav {
+    background-color: rgb(80, 80, 241);
+    border: white 3px solid;
+    border-radius: 10%;
+    position: absolute;
+    left: 85%;
+    top: 70%;
+    opacity: 0.5;
+}
+header img {
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    width: 80px;
+    height: 80px;
+} 
+nav ul {
+    margin-left: 0;
+}
+nav ul li {
+    list-style: none;       /* quitamos los puntos de los items de la lista */
+    
+}
+nav ul li a {
+    display: block;
+    font-size: 1.5em;
+    color: whitesmoke;
+    text-decoration: none;  /* quitamos las líneas de subrayado */
+    
+    padding: 0.5rem 0;
+}
+
+
+figure {
+    display: inline-block;
+    margin: 1%;
+    
+}
+figure img {
+    width: 300px;
+    height: 390px;
+
+}
