@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Vertical Garden Design</title>
+        <link>https://www.verticalgardendesign.com/products</link>
+        <description>Vertical Garden Design is a Swedish company dedicated to vertical gardens since 2004. We have long experience of working on international projects when it comes to planning, logistics, installation and maintenance.  Our vertical gardens can be found in hotels, restaurants, offices and facades from Barcelona to Dubai, Beijing, New York, London and Stockholm.</description>
+        <language>en-EN</language>
+        <copyright>© 2022 Vertical Garden Design</copyright>
+
+        <item>
+            <title>Vertical garden</title>
+            <link>https://www.verticalgardendesign.com/products/vertical-garden</link>
+            <description>
+            Our vertical gardens can be installed indoors and outdoors, and made in any shape and size.     
+            </description>
+        </item>
+        <item>
+            <title>Pinnacle</title>
+            <link>https://www.verticalgardendesign.com/products/pinnacle</link>
+            <description>
+            Pinnacle is a plant sculpture and freestanding vertical garden with plants on all sides. It can be individually shaped to create a unique landscape silhouette or a monolith.     
+            </description>
+        </item>
+        <item>
+            <title>Canopy</title>
+            <link>https://www.verticalgardendesign.com/products/canopy</link>
+            <description>
+            Canopy is a suspended garden for making plant ceilings. Cascading plants hang down several meters and are irrigated automatically.    
+            </description>
+        </item>
+    
+    </channel>
+</rss>
