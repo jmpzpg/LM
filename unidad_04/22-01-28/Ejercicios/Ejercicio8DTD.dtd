@@ -1,0 +1,7 @@
+
+<!ELEMENT aviso (titulo, parrafo, grafico)* >
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA) >
+<!ELEMENT grafico EMPTY >
+    <!ATTLIST grafico foto ENTITY #REQUIRED >
+    
