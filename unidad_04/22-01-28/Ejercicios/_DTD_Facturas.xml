@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Facturas SYSTEM "DTD_Facturas.dtd">
+<Facturas>
+    <factura numero="27" fecha="18/12/2013" importe="85">
+        <emisor nombre="Librería Pérez">
+            <cif>44555666B</cif>
+            <telefono>777888999</telefono>
+        </emisor>
+        <cliente nombre="Biblioteca Txantrea">
+            <cif>331111222A</cif>
+        </cliente>
+        <detalle>
+            <linea codigo="AW7" pvp="25">
+                <descripcion>Analítica Web 2.0</descripcion>
+                <cantidad>1</cantidad>
+                <oferta/>
+            </linea>
+            <linea codigo="CP5" pvp="30">
+                <descripcion>Curso de HTML</descripcion>
+                <cantidad>2</cantidad>
+            </linea>
+        </detalle> 
+    </factura>
+</Facturas>

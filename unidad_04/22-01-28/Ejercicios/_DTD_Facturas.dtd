@@ -1,0 +1,22 @@
+<!ENTITY % n "nombre CDATA #REQUIRED" >
+<!ENTITY % ct "(cif, telefono?)" >
+<!ENTITY % txt "(#PCDATA)" >
+<!ELEMENT Facturas (factura)* >
+<!ELEMENT factura (emisor, cliente, detalle) >
+    <!ATTLIST factura numero CDATA #REQUIRED
+                        fecha CDATA #REQUIRED
+                        importe CDATA #REQUIRED>
+<!ELEMENT emisor %ct; >
+    <!ATTLIST emisor %n; >
+<!ELEMENT cliente %ct; >
+    <!ATTLIST cliente %n; >
+<!ELEMENT detalle (linea)+ >
+<!ELEMENT linea (descripcion, cantidad, oferta?) >
+<!ATTLIST linea codigo ID #REQUIRED
+                    tipo (Libro | DVD | Varios) #IMPLIED
+                    pvp CDATA #REQUIRED >
+<!ELEMENT cif %txt; >
+<!ELEMENT telefono %txt; >
+<!ELEMENT descripcion %txt; >
+<!ELEMENT cantidad %txt; >
+<!ELEMENT oferta EMPTY >
