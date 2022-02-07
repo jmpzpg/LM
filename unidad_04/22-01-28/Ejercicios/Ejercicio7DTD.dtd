@@ -1,0 +1,19 @@
+<!ELEMENT ediciones (cabecera, tabla)>
+  <!ELEMENT cabecera (titulo, contenido, descripcion, fecha)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT contenido (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT tabla (region+, trimestre, libros_vendidos)>
+    <!ELEMENT region (norte | centro | sur)>
+    <!ELEMENT norte (nombre, (trim | lib)+)>
+    <!ELEMENT centro (nombre, (trim | lib)+)>
+    <!ELEMENT sur (nombre, (trim | lib)+)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT trim (#PCDATA)>
+    <!ELEMENT lib (#PCDATA)>
+    <!ELEMENT trimestre (#PCDATA) >   
+    <!ELEMENT libros_vendidos (#PCDATA)>
+    
+    
+    <!-- ------------------------------------------------------------------->
