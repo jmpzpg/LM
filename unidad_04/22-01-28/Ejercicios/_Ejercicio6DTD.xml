@@ -1,21 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE vuelos SYSTEM "Ejercicio6DTD.dtd">
+<!DOCTYPE vuelos SYSTEM "_Ejercicio6DTD.dtd" [
+    <!ENTITY ciudad "New York" >
+    <!ENTITY info_aeropuerto "JFK" >
+    <!ENTITY info_panel "PANEL DE VUELOS DE SALIDA DEL AEROPUERTO &info_aeropuerto;" >
+    <!ATTLIST vuelo estado (C | E | R) "E">
+]>
 <vuelos>
-    <panel_aeropuerto>PANEL DE VUELOS DE SALIDA DEL AEROPUERTO JFK</panel_aeropuerto>
-    <vuelo Código="V22">
+    <panel_aeropuerto>&info_panel;</panel_aeropuerto>
+    <vuelo Código="V22" estado="R">
         <Diario/>
-        <Origen>New York</Origen>
+        <Origen>&ciudad;</Origen>
         <Destino>Chicago</Destino>
         <Hora_salida>9:30</Hora_salida>
         <Hora_llegada>11:30</Hora_llegada>
-        <Estado estado="R"/>
     </vuelo>
-    <vuelo Código="V23">
-        <Origen>New York</Origen>
+    <vuelo Código="V23" estado="C">
+        <Origen>&ciudad;</Origen>
         <Destino>Miami</Destino>
         <Hora_salida>10:15</Hora_salida>
         <Hora_llegada>11:15</Hora_llegada>
-        <Estado/>
     </vuelo>
-    <panel_fecha>31/01/2022</panel_fecha>
+    <vuelo Código="V55">
+        <Diario/>
+        <Origen>&ciudad;</Origen>
+        <Destino>Sevilla</Destino>
+        <Hora_salida>10:02</Hora_salida>
+        <Hora_llegada>22:02</Hora_llegada>
+    </vuelo>
+    <vuelo Código="V33">
+        <Diario/>
+        <Origen>&ciudad;</Origen>
+        <Destino>Santiago de Compostela</Destino>
+        <Hora_salida>12:00</Hora_salida>
+        <Hora_llegada>17:55</Hora_llegada>
+    </vuelo>
+    <panel_fecha>7/02/2022</panel_fecha>
 </vuelos>

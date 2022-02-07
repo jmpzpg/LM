@@ -1,12 +1,11 @@
+<!ENTITY % t "(#PCDATA)" >
 <!ELEMENT vuelos (panel_aeropuerto, vuelo+, panel_fecha)>
-<!ELEMENT panel_aeropuerto (#PCDATA)>
-<!ELEMENT vuelo (Diario?, Origen, Destino, Hora_salida, Hora_llegada, Estado)>
-        <!ATTLIST vuelo Código ID #REQUIRED>
-    <!ELEMENT Diario EMPTY>
-    <!ELEMENT Origen (#PCDATA)>
-    <!ELEMENT Destino (#PCDATA)>
-    <!ELEMENT Hora_salida (#PCDATA)>
-    <!ELEMENT Hora_llegada (#PCDATA)>
-    <!ELEMENT Estado EMPTY>
-        <!ATTLIST Estado estado (C | E | R) "E">
-<!ELEMENT panel_fecha (#PCDATA)>
+<!ELEMENT vuelo (Diario?, Origen, Destino, Hora_salida, Hora_llegada)>
+    <!ATTLIST vuelo Código ID #REQUIRED>
+<!ELEMENT panel_aeropuerto %t;>
+<!ELEMENT Diario EMPTY>
+<!ELEMENT Origen %t;>
+<!ELEMENT Destino %t;>
+<!ELEMENT Hora_salida %t;>
+<!ELEMENT Hora_llegada %t;>
+<!ELEMENT panel_fecha %t;>
