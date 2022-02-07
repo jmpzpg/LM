@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE persona SYSTEM "_Ejercicio9DTD.dtd">
+<persona>
+  <nombre>Juan Pardo</nombre>
+  <nacimiento dia="10" mes="Abril" anyo="1982"/>
+  <direccion>
+    <calle>Caoba,1</calle>
+    <poblacion>Madrid</poblacion>
+    <provincia>Madrid</provincia>
+    <cpostal>28005</cpostal>  
+  </direccion>
+  <direccion>
+    <calle>Alcalá,27</calle>
+    <poblacion>Madrid</poblacion>
+    <provincia>Madrid</provincia>
+    <cpostal>28002</cpostal>
+  </direccion>
+  <varon/>
+</persona>

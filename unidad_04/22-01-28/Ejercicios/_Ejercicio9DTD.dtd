@@ -1,0 +1,14 @@
+<!ENTITY % t "(#PCDATA)" >
+<!ELEMENT persona (nombre, nacimiento?, direccion+, varon)>
+<!ELEMENT nombre %t;>
+<!ELEMENT nacimiento EMPTY>
+  <!ATTLIST nacimiento 
+                  dia CDATA 
+                  mes CDATA 
+                  anyo CDATA >
+<!ELEMENT direccion (calle, poblacion, provincia, cpostal)>
+<!ELEMENT calle %t;>
+<!ELEMENT poblacion %t;>
+<!ELEMENT provincia %t;>
+<!ELEMENT cpostal %t;>
+<!ELEMENT varon EMPTY>
