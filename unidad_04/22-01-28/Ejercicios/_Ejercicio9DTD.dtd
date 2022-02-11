@@ -3,9 +3,9 @@
 <!ELEMENT nombre %t;>
 <!ELEMENT nacimiento EMPTY>
   <!ATTLIST nacimiento 
-                  dia CDATA 
-                  mes CDATA 
-                  anyo CDATA >
+                  dia CDATA #IMPLIED
+                  mes CDATA #IMPLIED
+                  anyo CDATA #IMPLIED>
 <!ELEMENT direccion (calle, poblacion, provincia, cpostal)>
 <!ELEMENT calle %t;>
 <!ELEMENT poblacion %t;>

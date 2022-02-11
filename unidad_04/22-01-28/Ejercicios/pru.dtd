@@ -1,0 +1,3 @@
+<!ELEMENT raiz (elem+)>
+<!ELEMENT elem (#PCDATA)>
+<!ATTLIST elem atributo ID #REQUIRED
