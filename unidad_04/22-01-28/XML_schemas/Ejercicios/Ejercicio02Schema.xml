@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/jmpp/codigo/LM/unidad_04/22-01-28/XML_schemas/Ejercicios/Ejercicio02Schema.xsd">
+  <pagina>
+  
+    <nombre>Juan</nombre>
+    <descripcion>amigo de Lupe</descripcion>
+    <url>www.lomejores.com</url>  
+  
+  </pagina>
+
+
+
+</marcadores>
