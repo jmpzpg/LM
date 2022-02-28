@@ -1,0 +1,20 @@
+Valores únicos (xs:ID) y referenciados (xs:IDREF)
+11ElementosXSD.xml
+11ElementosXSD.xsd
+----------------------------------
+Referencias a elementos (ref)
+03ElementosXSD.xml
+03ElementosXSDconREF.xsd
+
+----------------------------------
+Crear un tipo de dato para un elemento simple o un elemento complejo
+4cElementosXSD.xml
+4cElementosXSD.xsd
+-------------------------------
+Contenido mixto.
+10ElementosXSD.xml
+10ElementosXSD.xsd
+
+Contenido mixto con atributo, 
+10bElementosXSD.xml
+10bElementosXSD.xsd
