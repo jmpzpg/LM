@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Enunciado1XSD.xsd">
+  
+  <libro codigo="A1122" titulo="A pesar de todo">
+    <autor>Pepe Gálvez</autor>
+    <autor>Paco de la Corte</autor>
+    <editorial>Espasa Calpe</editorial>
+    <edicion>3</edicion>
+    <isbn>UW324782113</isbn>
+    <donacion/>
+    <ubicacion sede="norte"/>
+  </libro>
+  
+  <libro codigo="A1133" titulo="El asesinato de Ronaldo">
+    <autor>Gustavo de Básica</autor>
+    <edicion>3</edicion>
+    <isbn>UW324782217</isbn>
+    <ubicacion sede="sur"/>
+  </libro>
+  
+</biblioteca>

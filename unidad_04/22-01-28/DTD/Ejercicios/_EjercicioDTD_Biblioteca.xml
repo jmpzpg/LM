@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE biblioteca SYSTEM "EjercicioDTD_biblioteca.dtd" [
+<!DOCTYPE biblioteca SYSTEM "_EjercicioDTD_biblioteca.dtd" [
     <!ATTLIST ubicacion sede (norte | centro | sur) #REQUIRED >
 ]>
 <biblioteca>
