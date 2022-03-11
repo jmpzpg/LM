@@ -4,7 +4,7 @@
 <!NOTATION jpg SYSTEM "image/jpg" >
 <!NOTATION png SYSTEM "image/png" >
 <!ELEMENT biblioteca (libro)+ >
-<!ELEMENT libro (autor+, foto, editorial, edicion, isbn, donacion?, ubicacion) >
+<!ELEMENT libro (autor+, foto?, editorial, edicion, isbn, donacion?, ubicacion) >
     <!ATTLIST libro codigo ID #REQUIRED
                     titulo CDATA #REQUIRED>
 <!ELEMENT autor %t; >

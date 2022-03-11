@@ -1,0 +1,60 @@
+Comentarios sobre las líneas de código del Enunciado1:
+
+
+<?xml version="1.0" encoding="UTF-8"?>	- Prólogo o preámbulo del documento XSD.
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">	- Elemento raíz del documento XSD, donde se define el espacio de nombres de los elementos y tipos usados.
+																							
+<xs:element name="biblioteca">	- Declaración del elemento raíz del documento.
+
+<xs:complexType>	- Indica que el elemento es complejo, que no es una hoja sin atributos.
+
+<xs:sequence>	- Indica que los elementos que siguen son hijos y que deben aparecer en ese orden.
+
+<xs:element ref="libro" minOccurs="2" maxOccurs="unbounded"/>	- Elemento hijo que podrá aparecer 2 o n veces. Está referenciado para ser definido fuera del bloque.
+
+</xs:sequence>	- Cierra la secuencia al no haber más elementos hijos.
+
+</xs:complexType>	- Cierra la definición del elemento complejo.
+
+</xs:element>	- Cierra la declaración del elemento.
+
+<xs:element name="libro">	 - Comienza la definición del elemento referenciado anteriormente.
+
+<xs:element name="autor" type="xs:string"  maxOccurs="3"/>	- Definición de elemento hoja "autor", de tipo texto pudiendo aparecer entre 1-3 veces.
+
+<xs:element name="editorial" type="xs:string" minOccurs="0" maxOccurs="1"/>	- Definición de elemento hoja "editorial", de tipo texto pudiendo aparecer o no (opcional).
+
+<xs:element name="edicion" type="xs:string"/>	- Definición de elemento hoja "edicion", de tipo texto.
+
+<xs:element name="isbn" type="xs:string"/>	 - Definición de elemento hoja "isbn", de tipo texto.	
+
+<xs:element name="donacion" type="xs:string" minOccurs="0" maxOccurs="1"/>	- Definición de elemento hoja "donacion", de tipo texto siendo opcional.
+
+<xs:element name="ubicacion" type="tipoUbicacion"/>		- Definición de elemento hoja "ubicacion", de tipo personalizado; a definir fuera del bloque.
+
+<xs:attribute name="codigo" type="xs:string" use="required"/>	- Definición de atributo "codigo", de tipo texto y aparición obligatoria.
+
+<xs:attribute name="titulo" type="xs:string" use="required"/>	- Definición de atributo "titulo", de tipo texto y aparición obligatoria.
+
+<xs:complexType name="tipoUbicacion">	- Definición del tipo personalizado "tipoUbicacion", de tipo no simple al tener un atributo.
+
+<xs:attribute name="sede" use="required">	- Definición del atributo "sede", que no es opcional.
+
+<xs:simpleType>		- Indica que el atributo es de tipo simple.
+
+<xs:restriction base="xs:string">		- Indica una restricción del valor del atributo sobre el tipo texto.
+
+<xs:enumeration value="norte"/>		- La restricción es de carácter enumerado, pudiendo tomar únicamente el valor indicado en las sentencias.
+<xs:enumeration value="sur"/>		- (norte o sur) en este caso.
+
+</xs:restriction>	- Cierre de la declaración de la restricción.
+
+</xs:simpleType>		- Cierre de la definición del tipo simple.
+
+</xs:attribute>		- Cierre de la definición del atributo.
+
+</xs:complexType>	- Cierre de la definición del tipo personalizado.
+
+</xs:schema>	- Cierre del documento XSD
+																									
