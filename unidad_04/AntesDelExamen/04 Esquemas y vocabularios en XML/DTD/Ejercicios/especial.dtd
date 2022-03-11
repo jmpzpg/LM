@@ -1,0 +1,4 @@
+<!ELEMENT aeropuerto ((nombre, fecha, vuelos)|(nombre, vuelos, fecha))*>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT vuelos (#PCDATA)>

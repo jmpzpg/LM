@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeropuerto SYSTEM "especial.dtd">
+<aeropuerto>
+<nombre/>
+<vuelos/>
+<fecha/>
+<nombre/>
+<fecha/>
+<vuelos/>
+</aeropuerto>

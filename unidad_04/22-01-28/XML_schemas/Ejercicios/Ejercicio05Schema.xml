@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio05Schema.xsd">
+  <ficha codigo="abc1x">
+    <nombre>Juanmi</nombre>
+    <edad>21</edad>
+  </ficha>
+  <ficha codigo="def2x">
+    <nombre>Carlitos</nombre>
+    <edad>22</edad>
+  </ficha>
+  <ficha codigo="ghi3x">
+    <nombre>Veronica</nombre>
+    <edad>23</edad>
+  </ficha>
+
+</fichas>

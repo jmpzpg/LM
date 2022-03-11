@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Enunciado2XSD.xsd">
+
+  <libro codigo="A11" titulo="A pesar de todo" fecha_publicacion="2012-02-28">
+    <autor>Pepe Gálvez</autor>
+    <autor>Paco de la Corte</autor>
+    <editorial>Lengua de trapo</editorial>
+    <edicion>3</edicion>
+    <isbn>11-22-1234</isbn>
+    <donacion/>
+    <ubicacion sede="norte"/>
+    <caracteristicas>
+      <numPaginas>177</numPaginas>
+      <calidad>Bolsillo</calidad>
+    </caracteristicas>
+  </libro>
+  
+  <libro codigo="W23" titulo="El asesinato del mandatario" fecha_publicacion="2001-11-22">
+    <autor>Gustavo de Básica</autor>
+    <editorial>Libros del KO</editorial>
+    <isbn>34-00-1234</isbn>
+    <ubicacion sede="sur"/>
+    <caracteristicas>
+      <numPaginas>399</numPaginas>
+      <calidad>Rústica</calidad>
+    </caracteristicas>
+  </libro>
+  
+</biblioteca>
