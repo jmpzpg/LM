@@ -1,0 +1,64 @@
+  html {
+    font-family: verdana, sans-serif;
+    width: 95%;
+    border: black 2px solid;
+    height: auto;
+  }
+  body {
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+    background-color: darkseagreen;
+    border: red 2px solid;
+  }
+  body h1{
+    text-align: center;
+    color: red;
+  }
+  table {
+    border-collapse: separate;
+    border: 3px solid rgb(46, 14, 97);
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    margin: o auto;
+  }
+  caption {
+    padding: 10px;
+    font-size: x-large;
+    color: blue;
+  }
+  tbody {
+    font-size: 90%;
+    font-style: normal;
+  }
+
+
+  td, th {
+    border: 1px solid rgb(46, 14, 97);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235, 187, 187);
+  }
+  
+ /*  td {
+    text-align: center;
+  } */
+  
+  tbody tr:nth-child(even) td {
+    background-color: rgb(166, 199, 230);
+    text-align: right;
+    color: rgb(100, 59, 196);
+  }
+  
+  tbody tr:nth-child(odd) td {
+    background-color: rgb(179, 228, 164);
+    text-align: left;
+    color: brown;
+  }
+  
+  tfoot {
+    font-weight: bold;
+    text-align: center;
+  }
