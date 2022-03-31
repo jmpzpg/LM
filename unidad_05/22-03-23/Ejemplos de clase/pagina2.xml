@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pagina2.xsl"?>
+<ciudades>
+    <ciudad>
+        <nota>nota = 0</nota>
+        <hijo_1>
+            <nota>nota = 1</nota>
+            <hijo_2>
+                <nota>nota = 2</nota>
+                <hijo_3>
+                    <nota>nota = 3</nota>
+                </hijo_3>
+            </hijo_2>
+        </hijo_1>
+    </ciudad>
+    <ciudad>
+        <nombre>MAdrid</nombre>
+        <habitantes>3500000</habitantes>
+        <nota>8</nota>
+    </ciudad>
+    <ciudad>
+        <nombre>Málaga</nombre>
+            <habitantes>800000</habitantes>
+        <nota>6</nota>
+    </ciudad>
+    <ciudad>
+        <nombre>Toledo</nombre>
+            <habitantes>50000</habitantes>
+    </ciudad>
+</ciudades>

@@ -5,18 +5,19 @@
     <head>
       <style>
       table {border-collapse: collapse;}
-      th { border:2px black solid;}
-        td { text-align:center; border:2px black solid;}
-        .precio1 {background-color:#FF0000;}
+      th { border:4px black solid; padding: 10px; font-style: italic; font-size: Large;}
+        td { text-align:center; border:2px black solid; padding: 5px 10px;}
+        .precio1 {background-color:#FF0000; color: white;}
         .precio2  {background-color:#00FF00;}
-        .precio3  {background-color:#0000FF;}
-        tr td:nth-child(3) { text-align:right;}
+        .precio3  {background-color:#0000FF; color: white;}
+        tr td:nth-child(odd) { text-align:right;}  <!--la tercera columna de cualquier fila-->
       </style>
     </head>
     <body>
-    <h1>Mi biblioteca</h1>
+    <h1>Mi biblioteca:</h1>
     <table>
       <tr><th>Título</th><th>Autor</th><th>Precio</th></tr>
+      
       <xsl:for-each select="libreria/libro">
       <tr>
           <xsl:choose>

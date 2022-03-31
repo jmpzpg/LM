@@ -4,11 +4,12 @@
     <html>
       <head>
         <style>
-          .cod { text-align:center; border:2px red solid;}
+          <!--.cod { text-align:center; border:2px red solid;}-->                         <!-- Cambio el selector para hacerlo más semántico -->
+          tr:first-child td { text-align:center; border:2px blue solid; padding: 8px;}    <!-- Pero solo me funciona en la primera iteración del FOR ¿? -->
       </style>
       </head>
       <body>
-        <h1>Catálogo</h1>
+        <h1>Catálogo:</h1>
         <table>
           <xsl:for-each select="productos_vendidos/producto">
           <xsl:sort  select="@codventa"/>

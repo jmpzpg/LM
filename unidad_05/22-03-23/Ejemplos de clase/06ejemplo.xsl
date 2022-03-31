@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <!-- ESTRUCTURA PRINCIPAL -->
-  <xsl:template match="/">
+<xsl:template match="/">
   <html>
   <head>
     <style>
     p { font-weight: bold;}
     div p:nth-child(1)::before {content:"*";}
     div p:nth-child(2) { text-indent:35px;}
-  #titulo {color:#ff0000;}
-  #artista {    color:#00ff00;}
+    #titulo {color:#ff0000;}
+    #artista { color: blue;}
     </style>
   </head>
   <body>
-  <h2>Mi colección de CDs</h2>
+  <h2>Mi colección de CDs:</h2>
   <main>
   <xsl:apply-templates/> <!-- se incluyen todas  las plantillas que se definan posteriormente -->
   </main>

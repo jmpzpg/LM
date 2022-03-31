@@ -7,10 +7,11 @@
           table {border-collapse: collapse;}
           th { border:2px red solid;}
           td { text-align:center; border:2px red solid;}
+          td:last-child {text-align:right;}
       </style>
       </head>
       <body>
-        <h1>Catálogo</h1>
+        <h1>Catálogo:</h1>
         <table>
           <tr>
             <th>Código</th>
