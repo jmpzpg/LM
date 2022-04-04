@@ -1,0 +1,19 @@
+h1, h2, section {
+  margin:5px;
+}
+h1 { 
+  font-size:200%;
+  display:inline;
+}
+h2 { 
+  font-size:150%;
+}
+
+main {
+  width :60%;   
+}
+
+article {
+  text-align:justify;
+  text-indent:1%;
+}

@@ -23,12 +23,12 @@
     <isbn>978-84-9849-703-8</isbn>
     <precio>8.50</precio>
     </libro>
-    <libro>
-      <titulo>El videojuego en la URSS</titulo>
-      <autor>Ronald  Klim</autor>
-      <editor>First Block</editor>
-      <isbn>978-84-3349-113-8</isbn>
-      <precio>11.50</precio>
-    </libro>
+  <libro>
+    <titulo>El videojuego en la URSS</titulo>
+    <autor>Ronald  Klim</autor>
+    <editor>First Block</editor>
+    <isbn>978-84-3349-113-8</isbn>
+    <precio>11.50</precio>
+  </libro>
 
 </libreria>

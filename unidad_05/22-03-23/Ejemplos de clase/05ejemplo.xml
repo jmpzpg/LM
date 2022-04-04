@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE productos_vendidos SYSTEM "05ejemplo.dtd">
-<?xml-stylesheet type="text/xsl" href="05ejemplo.xsl"?>
+<?xml-stylesheet type="text/xsl" href="05bejemplo.xsl"?>
 <productos_vendidos>
     <producto pid="100-201-01" precio="b" codventa="cod011">
       <nombre>Espátula quitahielo</nombre>

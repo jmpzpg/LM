@@ -1,0 +1,17 @@
+titulo, tituloNivel2, contenido {
+  margin:5px;
+  display:block;
+}
+documento {
+  width:85%;
+}
+titulo { 
+  font-size:200%;
+}
+tituloNivel2 { 
+  font-size:150%;
+}
+contenido {
+  text-align:justify;
+  text-indent:1%;
+}

@@ -5,8 +5,11 @@
       <head>
         <style>
           <!--.cod { text-align:center; border:2px red solid;}-->                         <!-- Cambio el selector para hacerlo más semántico -->
-          tr:first-child td { text-align:center; border:2px blue solid; padding: 8px;}    <!-- Pero solo me funciona en la primera iteración del FOR ¿? -->
-      </style>
+          <!-- tr:first-child td { text-align:center; border:2px blue solid; padding: 8px;} -->   <!-- Pero solo me funciona en la primera iteración del FOR ¿? -->
+          
+          tr:nth-child(4n+1) { text-align:center; border:2px red solid; background-color:yellow; padding: 8px;}
+          
+        </style>
       </head>
       <body>
         <h1>Catálogo:</h1>
