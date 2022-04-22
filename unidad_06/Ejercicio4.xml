@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pelicula titulo="Viaje al corazón del hombre" director="Romero Smith" año="2019" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio4.xsd">
+
+<localizaciones>
+    <localizacion id_loc="L01" cod_resp="R3">
+      <Continente>África</Continente>
+      <País>Angola</País>
+      <Capital>Luanda</Capital>
+    </localizacion >
+    <localizacion id_loc="L02" cod_resp="R2">
+      <Continente>América del Norte</Continente>
+      <País>Estados Unidos</País>
+      <Capital>Washington DC</Capital>
+    </localizacion>
+    <localizacion id_loc="L03" cod_resp="R1">
+      <Continente>América Central</Continente>
+      <País>México</País>
+      <Capital>Ciudad de México</Capital>
+    </localizacion>
+    <localizacion id_loc="L04" cod_resp="R2">
+      <Continente>América del Sur</Continente>
+      <País>Brasil</País>
+      <Capital>Brasília</Capital>
+    </localizacion>
+    <localizacion id_loc="L05" cod_resp="R3">
+      <Continente>Europa</Continente>
+      <País>España</País>
+      <Capital>Madrid</Capital>
+    </localizacion>
+  </localizaciones>
+  
+  
+  <responsables>
+    <responsable id_resp="R1">
+      <nombre>Juan</nombre>
+      <apellidos>Pérez</apellidos>
+      <telefono>111111111</telefono>
+    </responsable>  
+    <responsable id_resp="R2">
+      <nombre>Carmen</nombre>
+      <apellidos>López</apellidos>
+      <telefono>222222222</telefono>
+    </responsable>  
+    <responsable id_resp="R3">
+      <nombre>Manolo</nombre>
+      <apellidos>Sánchez</apellidos>
+      <telefono>333333333</telefono>
+    </responsable>  
+    <responsable id_resp="R4">
+      <nombre>Pablo</nombre>
+      <apellidos>Ramirez</apellidos>
+      <telefono>444444444</telefono>
+    </responsable>  
+    <responsable id_resp="R5">
+      <nombre>Eugenia</nombre>
+      <apellidos>Buero</apellidos>
+      <telefono>555555555</telefono>
+    </responsable>  
+  </responsables>
+  
+</pelicula>
