@@ -6,7 +6,7 @@
       <nombre>MANUEL FERNÁNDEZ HERNÁNDEZ</nombre>
       <ciudad>Alicante</ciudad>
     </cliente>
-    <cliente idcliente="H12">
+    <cliente idcliente="H11">
       <nombre>ANA LAFUENTE BROTONS</nombre>
       <ciudad>Alicante</ciudad>    
     </cliente>
@@ -15,6 +15,7 @@
       <ciudad>Alicante</ciudad>   
     </cliente>
   </clientes>
+  
 <articulos>
 <articulo codigo="A001">
 <modelo>EOS 550d</modelo>
@@ -29,9 +30,10 @@
 <articulo codigo="A005">
 <modelo>PX730</modelo>
 <marca>EPSON</marca>
-<pvp>250.00</pvp>
+<pvp>250.02</pvp>
 </articulo>
 </articulos>
+
 <compras>
 <compra idcliente="C22" codigo="A001">
   <unidades>1</unidades>
@@ -41,9 +43,10 @@
   <unidades>2</unidades>
   <fecha>2019-06-09T12:35:41</fecha>
 </compra>
-<compra idcliente="H12" codigo="A005">
+<compra idcliente="H11" codigo="A005">
   <unidades>1</unidades>
   <fecha>2019-07-13T11:30:40</fecha>
 </compra>
 </compras>
+
 </tienda>

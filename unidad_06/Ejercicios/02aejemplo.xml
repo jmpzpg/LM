@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tienda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xsi:noNamespaceSchemaLocation="02ejemplo.xsd">
+	 xsi:noNamespaceSchemaLocation="02aejemplo.xsd">
   <clientes>
-    <cliente idcliente="C22">
+    <cliente idcliente="C225">
       <nombre>MANUEL FERNÁNDEZ HERNÁNDEZ</nombre>
       <ciudad>Alicante</ciudad>
     </cliente>
-    <cliente idcliente="H12">
+    <cliente idcliente="C123">
       <nombre>ANA LAFUENTE BROTONS</nombre>
       <ciudad>Alicante</ciudad>    
     </cliente>
-    <cliente idcliente="C19">
+    <cliente idcliente="C190">
        <nombre>JUANA GÓMEZ GÓMEZ</nombre>
       <ciudad>Alicante</ciudad>   
     </cliente>
@@ -33,15 +33,15 @@
 </articulo>
 </articulos>
 <compras>
-<compra idcliente="C22" codigo="A001">
+<compra idcliente="C225" codigo="A001">
   <unidades>1</unidades>
   <fecha>2019-09-03T14:00:00</fecha>
 </compra>
-<compra idcliente="C22" codigo="A005">
+<compra idcliente="C190" codigo="A005">
   <unidades>2</unidades>
   <fecha>2019-06-09T12:35:41</fecha>
 </compra>
-<compra idcliente="H12" codigo="A005">
+<compra idcliente="C225" codigo="A005">
   <unidades>1</unidades>
   <fecha>2019-07-13T11:30:40</fecha>
 </compra>

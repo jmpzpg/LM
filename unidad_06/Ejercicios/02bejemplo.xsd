@@ -40,10 +40,13 @@
         <xs:element name="nombre" type="tipoNombre"/>
         <xs:element name="ciudad" type="tipoCiudad"/>
       </xs:sequence> 
-      <xs:attribute name="idcliente" use="required" type="xs:ID"/>
+
+      <!-- sustituyendo a <xs:attribute name="idcliente" use="required" type="xs:ID"/> lo siguiente-->
+
+      <xs:attribute name="idcliente" use="required" type="tipoIdCliente"/>
  </xs:complexType>
 </xs:element>  
-
+     
   <xs:element name="articulo">
  <xs:complexType>
       <xs:sequence>
@@ -58,7 +61,7 @@
   <xs:element name="compra">
  <xs:complexType>
       <xs:sequence>
-        <xs:element name="unidades" type="xs:integer"/>
+        <xs:element name="unidades" type="tipoUnidades"/>
         <xs:element name="fecha" type="xs:dateTime"/>
       </xs:sequence> 
       <xs:attribute name="idcliente" use="required" type="xs:IDREF"/> <!-- clave ajena -->
@@ -97,4 +100,15 @@
   </xs:restriction>
 </xs:simpleType>
 
+ <xs:simpleType name="tipoIdCliente">
+      <xs:restriction base="xs:ID">
+         <xs:pattern value="C[0-9][0-9][0-9]"/>
+      </xs:restriction>
+      </xs:simpleType>
+      
+      <xs:simpleType name="tipoUnidades">
+  <xs:restriction base="xs:positiveInteger">
+    <xs:maxInclusive value="3"/>
+  </xs:restriction>
+</xs:simpleType>
 </xs:schema>

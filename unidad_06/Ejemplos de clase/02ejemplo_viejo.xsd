@@ -3,7 +3,7 @@
   <xs:element name="tienda">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="clientes"/> 
+        <xs:element ref="clientes"/>
         <xs:element ref="articulos"/>
         <xs:element ref="compras"/>
       </xs:sequence>
