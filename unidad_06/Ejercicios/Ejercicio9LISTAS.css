@@ -1,0 +1,12 @@
+ol ul {
+ color:red;
+ margin-top:10px;
+ margin-bottom:10px;
+}
+
+
+
+ul li:first-letter {
+ color: magenta;
+ font-size:150%;
+}

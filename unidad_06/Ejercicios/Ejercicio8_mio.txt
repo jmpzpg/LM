@@ -1,0 +1,42 @@
+1.- Mostrar el nombre de todos los bailes
+Tango
+Cha-cha-cha
+Rock
+Merengue
+Salsa
+Pasodoble
+2.- Mostrar el nombre y el precio de todos los bailes. Elementos completos
+<nombre>Tango</nombre>
+<precio cuota="mensual" moneda="euro">27</precio>
+<nombre>Cha-cha-cha</nombre>
+<precio cuota="trimestral" moneda="euro">80</precio>
+<nombre>Rock</nombre>
+<precio cuota="mensual" moneda="euro">30</precio>
+<nombre>Merengue</nombre>
+<precio cuota="trimestral" moneda="dolares">75</precio>
+<nombre>Salsa</nombre>
+<precio cuota="mensual" moneda="dolares">32</precio>
+<nombre>Pasodoble</nombre>
+<precio cuota="anual" moneda="euro">3200</precio>
+3.- Mostrar el nombre y precio de todos los bailes donde su precio es mayor que 40
+<nombre>Cha-cha-cha</nombre>
+<precio cuota="trimestral" moneda="euro">80</precio>
+<nombre>Merengue</nombre>
+<precio cuota="trimestral" moneda="dolares">75</precio>
+<nombre>Pasodoble</nombre>
+<precio cuota="anual" moneda="euro">3200</precio>
+4.- Mostrar los bailes ordenados por nombre
+Cha-cha-cha
+Merengue
+Pasodoble
+Rock
+Salsa
+Tango
+5.- Mostrar los nombres de los bailes que contienen una a
+Tango
+Cha-cha-cha
+Salsa
+Pasodoble
+6.- Mostrar el nombre de los bailes donde el apellido del profesor sea Lozano
+Merengue
+Salsa
